@@ -1,0 +1,14 @@
+{
+  "name": "practicatdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testpush": "git add . && git commit -m 'TDD iteration' && git push && jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}

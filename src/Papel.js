@@ -1,17 +1,15 @@
 function Papel(){
     this.contra= function(elemento) {
-        return elemento.elementoContraMi("Papel");
+        return elemento.comoLeVaAPapelContraVos();
     }
-    this.elementoContraMi=function(elemento){
-        if(elemento==="Tijera"){
-            return "Victoria";
-        }
-        if(elemento==="Papel"){
-            return "Empate";
-        }
-        if (elemento==="Piedra"){
-            return "Derrota";
-        }
+    this.comoLeVaATijeraContraVos=function(){
+        return "Victoria"
+    }
+    this.comoLeVaAPiedraContraVos=function(){
+        return "Derrota"
+    }
+    this.comoLeVaAPapelContraVos=function(){
+        return "Empate"
     }
     
 }

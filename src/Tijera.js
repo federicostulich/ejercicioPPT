@@ -3,20 +3,20 @@ const Piedra = require("./Piedra");
 
 
 function Tijera(){
-    this.elementoContraMi=function(elemento){
-        if(elemento==="Tijera"){
-            return "Empate";
-        }
-        if (elemento==="Papel"){
-            return "Derrota";
-        }
-        if (elemento==="Piedra"){
-            return "Victoria";
-        }
+
+    this.comoLeVaATijeraContraVos=function(){
+        return "Empate"
+    }
+    this.comoLeVaAPiedraContraVos=function(){
+        return "Victoria"
+    }
+    this.comoLeVaAPapelContraVos=function(){
+        return "Derrota"
     }
     this.contra= function(elemento) {
-        return elemento.elementoContraMi("Tijera");
+        return elemento.comoLeVaATijeraContraVos();
     }
+    
    
 }
 

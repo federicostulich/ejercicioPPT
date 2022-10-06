@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "testpush": "git add . && git commit -m 'TDD iteration' && git push && jest"
   },
   "author": "",

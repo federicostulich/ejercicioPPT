@@ -2,6 +2,7 @@ function Papel(){
     this.contra= function(elemento) {
         return elemento.comoLeVaAPapelContraVos();
     }
+    
     this.comoLeVaATijeraContraVos=function(){
         return "Victoria"
     }

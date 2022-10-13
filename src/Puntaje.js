@@ -1,6 +1,7 @@
 function Puntaje(){
+    this.resultado = undefined;
     this.getResultado = function(){
-        return "0 a 0";
+        return this.resultado;
     }
 
     this.duelo = function(){

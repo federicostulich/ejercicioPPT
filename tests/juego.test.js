@@ -10,3 +10,10 @@ test("Puntaje 1 a 0", ()=>{
     puntaje.duelo();
     expect(puntaje.getResultado()).toBe("1 a 0"); 
 })
+
+test("Puntaje 1 a 1", ()=>{
+    const puntaje = new Puntaje();
+    puntaje.duelo();
+    puntaje.duelo();
+    expect(puntaje.getResultado()).toBe("1 a 1"); 
+})

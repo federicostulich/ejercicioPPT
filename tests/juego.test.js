@@ -11,7 +11,7 @@ test("Puntaje 1 a 0", ()=>{
     const puntaje = new Puntaje();
     const papel = new Papel();
     const piedra = new Piedra();
-    puntaje.duelo(piedra,papel);
+    puntaje.duelo(papel,piedra);
     expect(puntaje.getResultado()).toBe("1 a 0"); 
 })
 

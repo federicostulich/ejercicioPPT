@@ -4,8 +4,11 @@ function Puntaje(){
         return this.resultado;
     }
 
-    this.duelo = function(){
-        this.resultado = "1 a 0";
+    this.duelo = function(elemento1,elemento2){
+        if (elemento1.contra(elemento2) === "Victoria"){
+            this.resultado = "1 a 0";
+        } ;
+        
     }
 }
 

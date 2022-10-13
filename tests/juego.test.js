@@ -7,7 +7,9 @@ test("Puntaje 0 a 0", ()=>{
 
 test("Puntaje 1 a 0", ()=>{
     const puntaje = new Puntaje();
-    puntaje.duelo();
+    const papel = new Papel();
+    const piedra = new Piedra();
+    puntaje.duelo(piedra,papel);
     expect(puntaje.getResultado()).toBe("1 a 0"); 
 })
 

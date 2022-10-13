@@ -1,4 +1,6 @@
 const Puntaje = require("../src/Puntaje");
+const Piedra= require('../src/Piedra')
+const Papel= require('../src/Papel')
 
 test("Puntaje 0 a 0", ()=>{
     const puntaje = new Puntaje();

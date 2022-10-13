@@ -1,5 +1,5 @@
 function Puntaje(){
-    this.resultado = undefined;
+    this.resultado = "0 a 0";
     this.getResultado = function(){
         return this.resultado;
     }

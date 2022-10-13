@@ -19,6 +19,7 @@ test("Puntaje 1 a 1", ()=>{
     const puntaje = new Puntaje();
     const papel = new Papel();
     const piedra = new Piedra();
+    
     puntaje.duelo(papel,piedra);
     puntaje.duelo(piedra,papel);
     

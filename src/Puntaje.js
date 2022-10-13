@@ -7,7 +7,9 @@ function Puntaje(){
     this.duelo = function(elemento1,elemento2){
         if (elemento1.contra(elemento2) === "Victoria"){
             this.resultado = "1 a 0";
-        } ;
+        } else if (elemento1.contra(elemento2) === "Derrota"){
+            this.resultado = "1 a 1";
+        } 
         
     }
 }
